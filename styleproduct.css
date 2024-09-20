@@ -1,0 +1,185 @@
+body { height: auto;}
+body{
+    font: 16px/28px arial, sans-serif; 
+    background-image: url(img/bgproduct.png);
+    color: #333;
+}
+
+.container {
+    width: 960px;
+    border: 1px; solidblack;
+    margin: auto; padding: 5px;
+    background-color: #fff;
+}
+
+.container3 {
+    display:grid;
+    width: 150px;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px; 
+    margin-left: 225px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.column {
+    background-color: #45c959;
+    padding: 20px;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    
+}
+.column img {
+    width: 100px;
+    height: auto;
+}
+
+.header {
+    width: 960px;
+    padding: 20px;
+    padding-bottom: 5px;
+    position: fixed;
+    margin: auto; padding: 5; height: 150;
+    background-color: white;
+    border-bottom: 5px solid rgb(0, 215, 39);
+}
+
+.header .judul {
+    font-size: 40px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.header a {
+    text-decoration: none;
+    color: green;
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: rgb(0, 171, 26);
+    color: white;
+}
+
+.daun {
+    height: 280px;
+    background-image: url(img/products.png);
+    background-size: cover;
+    background-position: 0px;
+    border-bottom: 5px solid rgb(40, 225, 43);
+    border-top: 160px solid white;
+}
+
+.main {
+    padding: 20px;
+    width: 600px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.main h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.main .penulis {
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+.main .penulis a {
+    color: rgb(26, 235, 40);
+    text-decoration: none;
+}
+
+.main p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.product img {
+    width: 640px;
+    height: 360px;
+    padding-right: 160px;
+    margin-bottom: 10px;
+    padding-left: 160px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0px;
+}
+
+.table thead th {
+    background-color: white;
+    color: green;
+    padding: 10px 15 px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+.th {
+    background-color: #ffffff;
+}
+
+.table td, table th {
+    padding: 10 px 15px;
+}
+
+.percentage {
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(2, 126, 25);
+    text-align: center;
+}
+
+.description {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.footer {
+    background-color: #333;
+    padding: 5px;
+}
+
+.footer .copy {
+    color: #EAEAEA;
+    text-align: center;
+    font-size;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}

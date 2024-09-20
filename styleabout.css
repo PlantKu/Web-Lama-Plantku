@@ -1,0 +1,120 @@
+body { height: auto;}
+body{
+    font: 16px/28px arial, sans-serif; 
+    background-image: url(img/bgabout.png);
+    color: #333;
+}
+
+.container {
+    width: 960px;
+    border: 1px; solidblack;
+    margin: auto; padding: 5px;
+    background-color: #fff;
+}
+
+.header {
+    width: 960px;
+    padding: 20px;
+    padding-bottom: 5px;
+    position: fixed;
+    margin: auto; padding: 5; height: 150;
+    background-color: white;
+    border-bottom: 5px solid rgb(0, 215, 39);
+}
+
+.header .judul {
+    font-size: 40px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.header a {
+    text-decoration: none;
+    color: green;
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: rgb(0, 171, 26);
+    color: white;
+}
+
+.daun {
+    height: 280px;
+    background-image: url(img/about.png);
+    background-size: cover;
+    background-position: 0px;
+    border-bottom: 5px solid rgb(40, 225, 43);
+    border-top: 160px solid white;
+}
+
+.main {
+    padding: 20px;
+    width: 600px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.main h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.main .penulis {
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+.main .penulis a {
+    color: rgb(26, 235, 40);
+    text-decoration: none;
+}
+
+.main p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.banner img {
+    width: 768px;
+    height: 384px;
+    padding-right: 96px;
+    margin-bottom: 10px;
+    padding-left: 96px;
+}
+
+.footer {
+    background-color: #333;
+    padding: 5px;
+}
+
+.footer .copy {
+    color: #EAEAEA;
+    text-align: center;
+    font-size;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
